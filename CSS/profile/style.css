@@ -1,0 +1,368 @@
+* {
+    margin: auto;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    width: 970px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding-top: 18px;
+}
+
+.navbar {
+    height: 50px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-content {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    flex: 60%;
+    padding-left: 70px;
+}
+
+.navbar, .navbar-content li a {
+    text-decoration: none;
+    color: white;
+    list-style-position:inherit;
+}
+
+.sign-out {
+    height: 50px;
+    flex: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button {
+    background-color: #42a3b9;
+    padding: 5px 10px 5px 10px;
+    margin-right: 80px;
+    color: white;
+}
+
+.main {
+    width: 970px;
+    height: 600px;
+    display: block;
+}
+
+.row1 {
+    width: 970px;
+    height: 350px;
+    display: flex;
+    background-color: white;
+}
+
+.usercard {
+    border: 4px solid rgb(191, 188, 188);
+    width: 450px;
+    height: 300px;
+    margin-left: 110px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.usercard-header {
+    width: 100%;
+    height: 80px;
+    background-color: #42a3b9;
+}
+
+.name {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid rgb(191, 188, 188);
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#user {
+    margin-left: 30px;
+}
+
+.map-marker {
+    width: 8px;
+    height: 15px;
+    margin-right: 0px;
+}
+
+.map-locator {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 0px;
+}
+
+.location {
+    padding-left: 5px;
+}
+
+.credentials {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.gear {
+    margin-left: 30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+.edit-profile {
+    color: blue;
+}
+
+.education {
+    width: 450px;
+    height: 170px;
+    border: 4px solid rgb(191, 188, 188);
+    margin-left: 110px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.edu-header {
+    background-color: black;
+    height: 50px;
+}
+
+#edu {
+    color: white;
+    font-size: 16px;
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+.field,
+.dates,
+.accomplishments {
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 1px
+}
+
+.connection-requests {
+    width: 300px;
+    height: 200px;
+    border: 4px solid rgb(191, 188, 188);
+    margin-top: 30px;
+}
+
+.row2 {
+    width: 970px;
+    height: 350px;
+    display: flex;
+}
+
+.conn-req-header {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.number {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.user1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.todd {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.user1-name {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#close {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.user2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.phil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.user2-name {
+    margin-left: 20px;
+    margin-right: 28px;
+}
+
+.your-connections {
+    width: 300px;
+    height: 300px;
+    border: 4px solid rgb(191, 188, 188);
+    margin-top: -90px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.your-conn-header {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.number2 {
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.user3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.adrien {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 42px;
+    margin-right: 10px;
+}
+
+.user3-name {
+    margin-left: 20px;
+    margin-right: 28px;
+}
+
+.user4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.anne {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 42px;
+    margin-right: 10px;
+}
+
+.user4-name {
+    margin-left: 20px;
+    margin-right: 28px;
+}
+
+.user5 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.alayane {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 42px;
+    margin-right: 10px;
+}
+
+.user5-name {
+    margin-left: 20px;
+    margin-right: 28px; 
+}
+
+.user6 {
+    display: flex;
+    align-items: center;
+}
+
+.arry {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 42px;
+    margin-right: 10px;
+}
+
+.user6-name {
+    margin-left: 20px;
+    margin-right: 28px; 
+    margin-bottom: 18px;
+}
+
+.extra-margin {
+    border: 4px solid rgb(191, 188, 188);
+    width: 277px;
+    height: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.view-more {
+    color:blue;
+}

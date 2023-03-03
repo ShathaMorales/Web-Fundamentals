@@ -1,0 +1,39 @@
+.one {
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #5dd2b3;
+    border-color: #5dd2b3;
+    font-size: 80%;
+}
+
+.two {
+    font-size: larger;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: #5dd2b3;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 35px;
+}
+
+.three {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #2b78e4;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    box-shadow: 3px 3px black;
+    font-size: 15px;
+}
