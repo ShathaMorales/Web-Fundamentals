@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* 
+.header {
+    width: 970px;
+    height: 70px;
+    color: white;
+    background-color: rgba(37, 36, 36, 0.936); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .header-list {
+    background-color: blueviolet;
+    height: 27px;
+    list-style: none;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    align-items: center;
+} */
+
+/* #profile {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+} */
+
+/* .list-item1,
+.list-item2,
+.list-item3 {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px; */
+}
+
+.button {
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border: 1px;
+    background-color: #42a3b9;
+    color: white;
+    font-size: 18px;
+    margin-right: 120px;
+    cursor: pointer;
+}
+
+.container {
+    width: 600px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.column1 {
+    width: 900px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.usercard {
+    width: 500px;
+    height: 370px;
+    border: 4px solid rgb(197, 197, 197);
+    margin: 5px;
+}
+
+#userimage {
+    height: 100px;
+    width: 100px;
+    border:4px solid rgb(197, 197, 197);
+    border-radius: 50%;
+    left: 35px;
+    position: relative;
+    top: 50px;
+}
+
+.user-header {
+    height: 100px;
+    width: 500px;
+    background-color: #42a3b9;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 35px;
+    margin-top: 70px;
+}
+
+#name {
+    margin-bottom: 20px;
+}
+
+.location {
+    font-size: 18px;
+    display: inline-flex;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#marker {
+    width: 12px;
+    height: 19px;
+    display: inline-flex;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+.field {
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.gear {
+    width: 17px;
+    height: 17px;
+}
+
+.edit-link {
+    color: blue;
+}
+
+.education {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 5px;
+    width: 100px;
+    height: 170px;
+    border: 4px solid rgb(197, 197, 197);
+}
+
+.edu-header {
+    width: 500px;
+    background-color: rgba(37, 36, 36, 0.936);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 18px; 
+    display: flex;
+    margin-left: 20px;
+}
+
+.edu-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.topic {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.accomplishments {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.user1-request {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-request {
+    margin-left: 35px;
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.user1,
+.user2 {
+    margin-right: 20px;
+}
+
+.accept,
+.deny {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.accept {
+    margin-right: 10px;
+}
+
+.user2-request {
+    display: flex;
+    align-items: center;
+}
+
+.user2 {
+    padding-right: 10px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+

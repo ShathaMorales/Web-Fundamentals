@@ -1,0 +1,30 @@
+.one {
+    background-color: black;
+    padding: 0.5px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    font-family: monospace;
+    font-size: 15px;
+    margin: 1px;
+}
+
+.two {
+    color: white;
+    background-color: #673399;
+    text-align: center;
+    padding: 8px;
+    margin-top: 12px;
+    font-family: san-serif;
+    font-style: italic;
+    margin-bottom: -3px;
+}
+
+h3 {
+    background-color: #9fc5f8;
+    text-align: right;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #271b57;
+    text-decoration: underline;
+    margin-top: 15px;
+}
