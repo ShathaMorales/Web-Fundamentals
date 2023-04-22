@@ -1,0 +1,17 @@
+* {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+header {
+    height: 60px;
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+div {
+    display: flex;
+}
