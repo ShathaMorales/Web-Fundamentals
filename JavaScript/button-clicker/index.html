@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <p class="logo">Dojonary</p>
+            <input class="searchbox" type="text" placeholder="Search">
+            <button class="login" onclick="changeText(this)">Login</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="first-box">
+                <ul class="ninjas">                
+                    <li style="font-size:34px">ninja</li>
+                    <li style="font-style: italic;">noun</li>
+                    <li style="font-size: 12px;">Plural: ninjas</li>
+                    <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                </ul>
+                <p class="definition">A practitioner skilled in the <span><a href="https://en.wikipedia.org/wiki/Japanese_art">Japanese</a></span> art of <span><a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a></span></p>
+            </div>
+            <div class="second-box">
+                <p class="sec-box-para" style="font-size: 30px;">Dojonary is defined by YOU</p>
+                <button class="add" onclick="hide(this)">Add Definition</button>
+            </div>
+            <div class="third-box">
+                <ul class="ninjas-2">
+                    <li style="font-size:34px">ninja</li>
+                    <li style="font-style: italic;">noun</li>
+                    <li style="font-size: 12px;">Plural: ninjas</li>
+                    <button class="likes-box" onclick="alert('Ninja was liked')">37 likes</button>
+                </ul>
+                <p class="zen">A <span><a href="https://en.wikipedia.org/wiki/Programmer">programmer</a></span> who breaks down problems with <span><a href="https://en.wikipedia.org/wiki/Zen">zen</a> </span>-like focus</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

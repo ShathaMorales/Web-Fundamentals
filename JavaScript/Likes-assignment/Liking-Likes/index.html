@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <p class="logo">Network</p>
+        </div>
+        <div class="feed"><p>Your Feed</p></div>
+    </header>
+    <div class="container">
+        <ul class="column">
+            <li><img class="photo" src="user-profile.jpeg" alt="profile picture of James Doe"></li>
+            <li><p><span class="avatar"><a href="">Add an avatar</a></span></p></li>
+            <li><p class="name">James Doe</p></li>
+        </ul>
+        <div class="row">
+            <div class="neil">
+                <ul class="table">
+                    <li class="name1">Neil M</li>
+                    <li class="like-button"><span class="likes-number"></span> like(s)</li>
+                    <li><button onclick="addLike()">Like</button></li>
+                </ul>
+                <p class="text">I just set up this new discord bot, let me know what you all think. <span><a href="">link</a></span></p>
+            </div>
+            <div class="nichole">
+                <ul class="table">
+                    <li class="name1">Nichole K</li>
+                    <li class="like-button"><span class="likes-number1"></span> like(s)</li>
+                    <li><button onclick="addLike1()">Like</button></li>
+                </ul>
+                <p class="text">I just finished my <span><a href=""> next comic</a></span> check it out</p>
+        </div>
+        <div class="Jim">
+            <div class="nichole">
+                <ul class="table">
+                    <li class="name1">Jim R</li>
+                    <li class="like-button"><span class="likes-number2"></span> like(s)</li>
+                    <li><button onclick="addLike2()">Like</button></li>
+                </ul>
+                <p class="text">I can't stop listening the the <span><a href=""> new album.</a></span> Who else is liking it?</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

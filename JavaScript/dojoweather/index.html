@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DojoWeather</title>
+	<link rel="stylesheet" href="style.css"> </head>
+
+<body>
+	<div class="main-header">
+		<header>
+			<div>
+				<h1 class="logo">DojoWeather</h1> </div>
+			<ul class="header-list">
+				<li onclick="alert('Loading weather report')">Burbank</li>
+				<li onclick="alert('Loading weather report')">Chicago</li>
+				<li onclick="alert('Loading weather report')">Dallas</li>
+			</ul>
+		</header>
+	</div>
+	<div class="main-body">
+		<div class="header-2">
+			<p class="city">San Jose</p>
+			<div class="drop-down">
+				<p class="text">show temperature in</p>
+				<select onchange="convert(this)" name="temperature" id="cf">
+					<option value="c">℃</option>
+					<option value="f">&#8457;</option>
+				</select>
+			</div>
+		</div>
+		<div class="container">
+			<div class="today">
+				<h1 id="today" class="day">Today</h1>
+				<img src="some_rain.png" alt="rainy icon">
+				<p class="weather">some rain</p>
+				<p><span class="degree" style="color: #cf302b; font-weight: 700;">24</span><span style="color: #cf302b">°</span><span id="dg" class="degree" style="color: #2b78e4; font-weight: 700;">18</span><span style="color: #2b78e4;">°</span></p>
+			</div>
+			<div class="tomorrow">
+				<p class="day">Tomorrow</p>
+				<img src="some_sun.png" alt="sunny icon">
+				<p class="weather">some sun</p>
+				<p><span class="degree" style="color: #cf302b; font-weight: 700;">27</span><span style="color: #cf302b">°</span><span id="dg" class="degree" style="color: #2b78e4; font-weight: 700;">19</span><span style="color: #2b78e4;">°</span></p>
+			</div>
+			<div class="friday">
+				<p class="day">Friday</p>
+				<img src="some_clouds.png" alt="cloudy icon">
+				<p class="weather">some clouds</p>
+				<p><span class="degree" style="color: #cf302b; font-weight: 700;">21</span><span style="color: #cf302b">°</span><span id="dg" class="degree" style="color: #2b78e4; font-weight: 700;">16</span><span style="color: #2b78e4;">°</span></p>
+			</div>
+			<div class="saturday">
+				<p class="day">Saturday</p>
+				<img src="some_sun.png" alt="sunny icon">
+				<p class="weather">some sun</p>
+				<p><span class="degree" style="color: #cf302b; font-weight: 700;">26</span><span style="color: #cf302b">°</span><span id="dg" class="degree" style="color: #2b78e4; font-weight: 700;">21</span><span style="color: #2b78e4;">°</span></p>
+			</div>
+		</div>
+		<div class="last-section">
+			<img class="cookie" src="cookie.png" alt="an image of a cookie">
+			<p class="stop"><span style="font-weight: 900;" class="attention">Stop! Cookie Time</span><br> We use cookies (sadley not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span><a href="#">Read more...</a></span></p>
+			<button onclick="hideSection()" class="box">I Accept</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

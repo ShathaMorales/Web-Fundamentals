@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="main-top">
+                <div class="logo">
+                    <img class="leaf" src="leaf.png" alt="a leaf icon">
+                    <h1 class="title">EasyBay</h1>
+                </div>
+                <form class="nosubmit">
+                    <input class="nosubmit" type="search" placeholder="Search for anything">
+                </form> 
+                <div class="cart-div">
+                    <a class="sign-in" href="#">Sign In</a>
+                    <img onclick="alert('Your cart is empty!')" class="cart" src="cart-dark.png" alt="a shopping cart icon">
+                </div>
+            </div>
+        </header>
+        <nav>
+            <a href="#">Aeonium</a>
+            <a href="#">Andormischus</a>
+            <a href="#">Agave</a>
+            <a href="#">Aloe</a>
+            <a href="#">Anacampseros</a>
+            <a href="#">Aristaloe</a>
+            <a href="#">More...</a>
+        </nav>
+        <div class="main">
+            <h1>Your Source for Serious Succulent Specialties</h1>
+            <div class="first-row">
+                <p class="discover-box">
+                    <span>Discover succ-</span><br>
+                    <span>ulent varieties</span><br>
+                    <span>one pot or rack</span><br>
+                    <span>at a time!</span><br><br>
+                    <a class="arrow" href="#">Discover →</a>
+                </p>
+                <div class="middle-image">
+                    <img id="succulent-img" onmouseover="changeSource()" onmouseout="revertBack()" src="succulents-1.jpg" alt="an image of a succulant">
+                </div>
+                <div class="soothing-button">
+                    <img src="aloe-m.jpg" alt="an image of a soothing aloe">
+                    <button class="button">Soothing Aloe →</button>
+                </div>
+            </div>
+            <div class="bottom-row">
+                <img class="succulents" src="aeonium-s.jpg" alt=" an image of the Aeonium succulent">
+                <img class="succulents" src="aloe-s.jpg" alt="an image of the Aloe succulent">
+                <img class="succulents" src="cactus-s.jpg" alt="an image of The Cactus succulent">
+                <img class="succulents" src="echeveria-s.jpg" alt="an image of the echeveria succulent">
+                <img class="succulents" src="sedum-s.jpg" alt="an image of the Secum succulent">
+                <img class="succulents" src="sempervivum-s.jpg" alt="an image of the semervivum succulent">
+            </div>
+        </div>
+        <div class="last-section">
+			<img class="alert" src="alert-dark.png" alt="an alert icon">
+			<p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our<span><a class="policy" href="#"> cookie policy</a></span></p>
+			<button onclick="hideSection()" class="box">I accept</button>
+		</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

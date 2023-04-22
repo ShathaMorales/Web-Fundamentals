@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.main-header {
+	width: 970px;
+	margin: 0 auto;
+	background-color: #9fc5f8;
+}
+
+#today {
+	font-weight:normal;
+}
+
+header {
+	height: 70px;
+	width: 85%;
+	margin: 0 auto;
+	color: white;
+	font-size: 900;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-list {
+	list-style: none;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.header-list li {
+	font-size: 22px;
+	margin-left: 40px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.main-body {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.header-2 {
+	display: flex;
+	width: 85%;
+	align-items: center;
+	margin-top: 20px;
+	margin: 0 auto;
+	padding-top: 30px;
+	justify-content: space-between;
+}
+
+.city {
+	font-size: 22px;
+}
+
+.drop-down {
+	display: flex;
+	align-items: center;
+}
+
+.text {
+	font-size: 13px;
+	margin-right: 10px;
+}
+
+.container {
+	border-top: 2px solid black;
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.today {
+	height: 280px;
+	border-radius: 8px;
+	flex: 0.22;
+	margin-top: 20px;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+.tomorrow {
+	height: 280px;
+	border-radius: 8px;
+	flex: 0.22;
+	margin-top: 20px;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+.friday {
+	height: 280px;
+	border-radius: 8px;
+	flex: 0.22;
+	margin-top: 20px;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+.saturday {
+	height: 280px;
+	border-radius: 8px;
+	flex: 0.22;
+	margin-top: 20px;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+img {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.day {
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 22px;
+}
+
+.weather {
+	margin-bottom: 30px;
+}
+
+#dg {
+	margin-left: 40px;
+}
+
+.last-section {
+	position: fixed;
+	border: 2px solid rgb(40, 40, 40);
+	border-radius: 5px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 470px;
+	width: 824px;
+	left: 42%;
+	top: 0%;
+	margin-left: -300px;
+}
+
+.cookie {
+	padding-top: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.stop {
+	width: 550px;
+	word-wrap: break-word;
+	line-height: 22px;
+}
+
+.box {
+	background-color: #9fc5f8;
+	padding: 5px 25px 5px 25px;
+	border: 2px solid rgb(40, 40, 40);
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px rgb(40, 40, 40);
+}
+
+a {
+	color: blue;
+}
